@@ -1,0 +1,104 @@
+body {
+  padding: 4px; }
+
+header {
+  height: 120px;
+  background: url("../banner.jpg");
+  background-size: cover; }
+
+.wrap {
+  display: table;
+  width: 100%; }
+
+.wrap > div {
+  display: table-cell;
+  height: 100%; }
+
+.left {
+  width: 50%;
+  background: #fff;
+  padding-left: 14px; }
+  .left h4 {
+    font-weight: 700; }
+  .left ol {
+    margin: 0;
+    padding-left: 16px; }
+    .left ol li {
+      padding-right: 280px; }
+
+.right {
+  width: 50%;
+  text-align: right;
+  background: #f0f0f0;
+  padding-left: 140px;
+  padding-right: 12px; }
+  .right h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #49766f; }
+  .right #totalPurchase {
+    background: #fff;
+    padding: 10px;
+    font-weight: 700;
+    margin-top: 4px; }
+
+.active-radio {
+  background: transparent; }
+  .active-radio:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 3px solid #111;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px; }
+
+.qtyTxt {
+  width: 70px;
+  font-weight: 700; }
+
+.btn {
+  border: 2px solid;
+  border-radius: 0;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  background: #f0e9a1;
+  font-weight: 700; }
+
+/**table styles**/
+thead {
+  background: #ffffdd; }
+  thead th {
+    font-size: 18px;
+    color: #905c2a; }
+    thead th:nth-child(1) {
+      text-transform: uppercase;
+      font-size: 18px; }
+    thead th:nth-child(n+7) {
+      text-align: center; }
+  thead .subtotal-head {
+    text-align: right; }
+
+.item-name-p, .item-desc-p {
+  margin: 0;
+  color: #2f5e4a;
+  max-width: 380px; }
+
+.item-name-p {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700; }
+
+.subtotal {
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1e336a; }
+
+tr td {
+  border-bottom: 2px solid #111; }
+
+/*# sourceMappingURL=style.css.map */
