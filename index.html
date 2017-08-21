@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yellow Cab Online</title>
+
+	<!--CSS STYLES-->
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+
+	
+
+</head>
+<body>
+
+<header></header>
+
+<div class="main-content">
+	
+	<section class="instructions">
+
+		<div class="wrap">
+			<div class="left">
+				<h4>Instructions</h4>
+				<ol>
+					<li>Move mouse over the radio buttons to see the unit price</li>
+					<li>Enter the quantity to order</li>
+					<li>Click the ADD button to include the items to your cart, REMOVE to delete items from the cart.</li>
+					<li>Click UPDATE if have made changes in your orders.</li>
+				</ol>
+			</div>
+			<div class="right">
+				<h4>Total Purchase Order</h4>
+				<h1 id="totalPurchase">0.00</h1>
+				<p>All sales are in Philippine PESO</p>
+			</div>
+		</div>
+
+		
+		<div class="inst-left col-md-6" style="display:none;">
+			<h4>Instructions</h4>
+			<ol>
+				<li>Move mouse over the radio buttons to see the unit price</li>
+				<li>Enter the quantity to order</li>
+				<li>Click the ADD button to include the items to your cart, REMOVE to delete items from the cart.</li>
+				<li>Click UPDATE if have made changes in your orders.</li>
+			</ol>
+		</div>
+
+		<div class="inst-right col-md-6" style="display:none;">
+			<h4>Total Purchase Order</h4>
+			<h1 id="totalPurchase">0.00</h1>
+			<p>All sales are in Philippine PESO</p>
+		</div>
+
+	</section>
+
+	<section class="order-content">
+	
+		<table class="table table-inverse">
+
+  			<thead id="ycTable-head0">
+    		</thead>
+
+  			<tbody class="tbody" id="ycTable-body0">
+			</tbody>
+
+  			<thead id="ycTable-head1">
+    		</thead>
+
+  			<tbody class="tbody" id="ycTable-body1">
+			</tbody>
+
+
+  			<thead id="ycTable-head2">
+  			</thead>
+
+  			<tbody class="tbody" id="ycTable-body2">
+  			</tbody>
+
+		</table>
+
+		
+	</section>
+
+</div>
+
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jsonData.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+</html>
